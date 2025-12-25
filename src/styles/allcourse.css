@@ -1,0 +1,52 @@
+.Collapsible {
+  margin-bottom: 20px;
+}
+
+.collapse-main > span,
+.is-open {
+  font-size: 1.1rem;
+  width: 88% !important;
+  display: block;
+  padding: 20px 40px;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  background: #fff;
+  margin: 0 auto;
+  border-top: 1px solid rgb(177, 177, 177);
+  border-left: 1px solid rgb(177, 177, 177);
+  border-right: 1px solid rgb(177, 177, 177);
+  border-radius: 20px 20px 0 0;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0 0 10px rrgb(177, 177, 177);
+}
+
+.dark .collapse-main > span,
+.dark .is-open {
+  background: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.collapse-main > span:hover,
+.collapse-main > span,
+.is-open {
+  background: #219bff;
+  color: #fff;
+}
+
+.Collapsible__contentOuter {
+  background: #fff;
+  width: 88%;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.dark .Collapsible__contentOuter {
+  background: #334155;
+}
+
+.Collapsible__contentInner {
+  padding: 20px 40px;
+}
