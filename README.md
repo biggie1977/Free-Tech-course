@@ -20,7 +20,7 @@ You can contribute in many ways to this repository
 2. Design the website for this repository with the content. <br>
 3. Add more free courses to the list below and in the main.js course_details list that are not present. <br>
 
-Check [Contributing.md](https://github.com/avinash201199/Free-courses-with-Certificates/blob/main/CONTRIBUTING.md) file to get started
+Check [Contributing.md](https://github.com/biggie1977/Free-tech-course/blob/main/CONTRIBUTING.md) file to get started
 
 #### Note- Before contributing, please create an issue first so that I can assign you and you can start working on it.
 
